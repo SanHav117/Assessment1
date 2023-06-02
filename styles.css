@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+}
+
+.nav{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: lighter;
+    border: 1px solid rgb(201, 201, 201);
+}
+.nav > img{
+    padding: 1.5rem;
+    padding-left: 7rem;
+    mix-blend-mode: multiply;
+    filter: contrast(1.1);
+}
+.nav > span{
+    padding-right: 7rem;
+}
+
+.homesection{
+    margin-top: 10%;
+    margin-inline: 8%;
+    display:inline-block;
+}
+.homeflex{
+    display: flex;
+    justify-content: space-between;
+}
+.homemain{
+    display: flex;
+   justify-items: space-between; 
+}
+.hometext{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#homespan1{
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.4rem;
+    background-color: #0d6efd; 
+    width: 350px;
+    border-radius: 2rem;
+    padding: 0.7rem;
+    font-weight: 600; 
+}
+#homespan2{
+    font-weight: 800;
+    width: 600px;
+    font-size: 3.2rem;
+    background-image: linear-gradient(90deg, #2B7DDD 3.58%, #45CDD6 50.39%, #46B314 98.18%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+#homespan3{
+    font-size: 1.8rem;
+    width: 580px;
+    font-weight: 400;
+}
+
+.homeform{
+    display:inline-block;
+    border-radius: 2rem;
+    background-color:rgb(255, 255, 255);
+    margin-left: 13%;
+    width: 460px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0rem 0rem 3rem -2rem;
+}
+.homeform > span{
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.enrollform > input{
+    display: block;
+    width: 100%;
+    padding: 0.8rem;
+    width: 300px;
+    border-radius: 0.3rem;
+    border: 1px solid rgb(175, 175, 175);
+}
+#enroll{
+    width: 330px;
+    background-color: #46B314;
+    border: none;
+    padding: 0.8rem;
+    font-size: 18px;
+    border-radius: 0.5rem;
+    color: white;
+}
